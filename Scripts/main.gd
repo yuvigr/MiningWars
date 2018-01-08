@@ -26,5 +26,7 @@ func splash_screen():
 	
 	# Loads all game data (Configs, Saved games etc.)
 func load_data(vars):
-	print("in load data")
+	
+	# Proccessing data
+	
 	next_scene_instance.is_loading = false

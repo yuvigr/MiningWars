@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=1]
 
-[ext_resource path="res://Scenes/SplashScreen.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/SplashScreen.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/GameController.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/frostyDog_logo2.png" type="Texture" id=3]
 
@@ -53,7 +53,6 @@ tracks/3/keys = {
 
 [node name="SplashScreen" type="Control"]
 
-visibility/opacity = 0.0
 anchor/right = 1
 anchor/bottom = 1
 focus/ignore_mouse = false

@@ -13,7 +13,7 @@ func _ready():
 	
 func fade_in_out():
 	anim_player.play("fade_in_out")
-	anim_player.connect("finished", self, "goto_next_scene")
+	anim_player.connect("finished",self, "goto_next_scene") # Signal
 	
 func _input(event):
 	if event.is_action_pressed("ui_select"):
